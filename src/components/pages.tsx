@@ -171,6 +171,13 @@ export function PrayPage() {
           <Steps steps={r.steps} />
         </div>
       ))}
+      <Card title={t(guide.duaTimes.title)}>
+        <ul className="list-disc space-y-2 pl-5">
+          {guide.duaTimes.items.map((x, i) => (
+            <li key={i}>{t(x)}</li>
+          ))}
+        </ul>
+      </Card>
       <Card title={t(guide.afterPrayer.title)}>
         <p>{t(guide.afterPrayer.text)}</p>
         <button onClick={() => go('zikir', 'after')} className="mt-3 rounded-full border border-border px-4 py-2 text-sm font-semibold text-primary">

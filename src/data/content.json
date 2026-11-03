@@ -1100,6 +1100,19 @@
       "en": "My Lord, I am in need of whatever good You send down to me. (28:24)",
       "ms": "Ya Tuhanku, aku sangat memerlukan apa jua kebaikan yang Engkau turunkan kepadaku. (28:24)"
      }
+    },
+    {
+     "id": "d-jodoh-3",
+     "title": {
+      "en": "Harmony between hearts",
+      "ms": "Kesatuan hati dan hubungan yang baik"
+     },
+     "arabic": "اللَّهُمَّ أَلِّفْ بَيْنَ قُلُوبِنَا وَأَصْلِحْ ذَاتَ بَيْنِنَا",
+     "translit": "Allahumma allif baina qulubina wa aslih dhata bainina",
+     "meaning": {
+      "en": "O Allah, join our hearts together and set right the matters between us.",
+      "ms": "Ya Allah, satukanlah hati-hati kami dan perbaikilah hubungan antara kami."
+     }
     }
    ]
   },
@@ -1147,6 +1160,19 @@
      "meaning": {
       "en": "O Allah, nothing is easy except what You make easy, and You make the difficult easy if You wish.",
       "ms": "Ya Allah, tiada yang mudah melainkan apa yang Engkau jadikan mudah, dan Engkau menjadikan yang sukar itu mudah jika Engkau kehendaki."
+     }
+    },
+    {
+     "id": "d-kerjaya-4",
+     "title": {
+      "en": "For a good outcome in every matter",
+      "ms": "Agar setiap urusan berakhir baik"
+     },
+     "arabic": "اللَّهُمَّ أَحْسِنْ عَاقِبَتَنَا فِي الْأُمُورِ كُلِّهَا، وَأَجِرْنَا مِنْ خِزْيِ الدُّنْيَا وَعَذَابِ الْآخِرَةِ",
+     "translit": "Allahumma ahsin 'aqibatana fil-umuri kullaha, wa ajirna min khizyid-dunya wa 'adhabil-akhirah",
+     "meaning": {
+      "en": "O Allah, make the end of all our affairs good, and save us from the disgrace of this world and the punishment of the Hereafter.",
+      "ms": "Ya Allah, baikkanlah kesudahan segala urusan kami, dan selamatkanlah kami daripada kehinaan dunia dan azab akhirat."
      }
     }
    ]
@@ -1217,6 +1243,19 @@
      "meaning": {
       "en": "My Lord, make me and my children keep up prayer. Our Lord, accept my dua. (14:40)",
       "ms": "Ya Tuhanku, jadikan aku dan zuriatku orang yang mendirikan solat. Terimalah doaku. (14:40)"
+     }
+    },
+    {
+     "id": "d-children-3",
+     "title": {
+      "en": "Dua of Prophet Zakariya for family",
+      "ms": "Doa Nabi Zakaria memohon zuriat"
+     },
+     "arabic": "رَبِّ لَا تَذَرْنِي فَرْدًا وَأَنتَ خَيْرُ الْوَارِثِينَ",
+     "translit": "Rabbi la tadharni fardan wa anta khairul-warithin",
+     "meaning": {
+      "en": "My Lord, do not leave me alone, and You are the best of inheritors. (21:89)",
+      "ms": "Ya Tuhanku, janganlah Engkau biarkan aku seorang diri, dan Engkaulah sebaik-baik Pewaris. (21:89)"
      }
     }
    ]
@@ -1350,6 +1389,32 @@
      "meaning": {
       "en": "Our Lord, accept from us. You are the All-Hearing, the All-Knowing.",
       "ms": "Wahai Tuhan kami, terimalah daripada kami. Sesungguhnya Engkau Maha Mendengar lagi Maha Mengetahui."
+     }
+    },
+    {
+     "id": "d-forg-afu",
+     "title": {
+      "en": "Dua for Laylatul Qadr",
+      "ms": "Doa Malam Lailatul Qadar"
+     },
+     "arabic": "اللَّهُمَّ إِنَّكَ عَفُوٌّ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي",
+     "translit": "Allahumma innaka 'afuwwun tuhibbul-'afwa fa'fu 'anni",
+     "meaning": {
+      "en": "O Allah, You are the Pardoner and You love to pardon, so pardon me.",
+      "ms": "Ya Allah, sesungguhnya Engkau Maha Pemaaf dan menyukai kemaafan, maka maafkanlah aku."
+     }
+    },
+    {
+     "id": "d-forg-tawwab",
+     "title": {
+      "en": "Forgiveness and repentance",
+      "ms": "Keampunan dan taubat"
+     },
+     "arabic": "رَبِّ اغْفِرْ لِي وَتُبْ عَلَيَّ إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيمُ",
+     "translit": "Rabbighfir li wa tub 'alayya innaka antat-Tawwabur-Rahim",
+     "meaning": {
+      "en": "My Lord, forgive me and accept my repentance. You are the Accepter of repentance, the Merciful.",
+      "ms": "Ya Tuhanku, ampunilah aku dan terimalah taubatku. Sesungguhnya Engkau Maha Penerima taubat lagi Maha Penyayang."
      }
     }
    ]
@@ -1648,6 +1713,19 @@
       "ms": "Ya Allah, limpahkanlah rahmat ke atas junjungan kami Nabi Muhammad."
      },
      "count": 100
+    },
+    {
+     "id": "z-peace-5",
+     "title": {
+      "en": "Selawat Ibrahimiyyah (full)",
+      "ms": "Selawat Ibrahimiyyah (penuh)"
+     },
+     "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ. اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
+     "translit": "Allahumma salli 'ala Muhammad wa 'ala ali Muhammad, kama sallaita 'ala Ibrahim wa 'ala ali Ibrahim, innaka Hamidun Majid. Allahumma barik 'ala Muhammad wa 'ala ali Muhammad, kama barakta 'ala Ibrahim wa 'ala ali Ibrahim, innaka Hamidun Majid",
+     "meaning": {
+      "en": "O Allah, send blessings upon Muhammad and his family as You sent blessings upon Ibrahim and his family. You are Praiseworthy, Glorious. O Allah, bless Muhammad and his family as You blessed Ibrahim and his family. You are Praiseworthy, Glorious.",
+      "ms": "Ya Allah, limpahkan rahmat ke atas Muhammad dan keluarganya sebagaimana Engkau limpahkan ke atas Ibrahim dan keluarganya. Engkau Maha Terpuji lagi Maha Mulia. Ya Allah, berkatilah Muhammad dan keluarganya sebagaimana Engkau berkati Ibrahim dan keluarganya. Engkau Maha Terpuji lagi Maha Mulia."
+     }
     }
    ]
   }
@@ -2456,6 +2534,26 @@
      "ms": "Mengingati Allah dengan kalimah seperti Subhanallah dan Alhamdulillah."
     }
    }
-  ]
+  ],
+  "duaTimes": {
+   "title": {
+    "en": "Good times to make dua",
+    "ms": "Waktu yang baik untuk berdoa"
+   },
+   "items": [
+    {
+     "en": "In prostration (sujud): the Prophet said a servant is closest to their Lord then, so make plenty of dua.",
+     "ms": "Ketika sujud: Nabi bersabda seorang hamba paling hampir dengan Tuhannya ketika itu, maka perbanyakkan doa."
+    },
+    {
+     "en": "At the end of the prayer, after the tashahhud and salawat and before the salam.",
+     "ms": "Di penghujung solat, selepas tahiyat dan selawat, sebelum memberi salam."
+    },
+    {
+     "en": "Between the adhan and the iqamah.",
+     "ms": "Antara azan dan iqamah."
+    }
+   ]
+  }
  }
 }

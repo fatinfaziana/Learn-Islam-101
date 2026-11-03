@@ -74,6 +74,7 @@ export interface Guide {
     tayammum: L
   }
   afterPrayer: { title: L; text: L }
+  duaTimes: { title: L; items: L[] }
   qunutNote: L
   fatihahOnly: L
   glossary: { term: string; ms: string; def: L }[]
