@@ -75,7 +75,17 @@ export interface Guide {
   }
   afterPrayer: { title: L; text: L }
   duaTimes: { title: L; items: L[] }
+  videos: Record<'wudhu' | 'pray', Video[]>
   qunutNote: L
   fatihahOnly: L
   glossary: { term: string; ms: string; def: L }[]
+}
+
+export interface Video {
+  id: string
+  lang: Lang
+  title: string
+  channel: string
+  seconds: number
+  note?: L
 }

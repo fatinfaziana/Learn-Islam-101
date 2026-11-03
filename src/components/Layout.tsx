@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { useApp } from '../context'
+import { guide, ui } from '../lib/content'
 
 export function Section({ title, children }: { title: string; children: ReactNode }) {
   return (
@@ -77,5 +78,40 @@ export function BackButton() {
     <button onClick={() => go('home')} className="mb-5 inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 font-semibold text-primary">
       ← {t({ en: 'Back', ms: 'Kembali' })}
     </button>
+  )
+}
+
+const duration = (sec: number) => `${Math.floor(sec / 60)}:${String(sec % 60).padStart(2, '0')}`
+
+/** Links (not embeds) to short videos, so nothing is loaded from YouTube until the person chooses to open one. */
+export function VideoLinks({ topic }: { topic: 'wudhu' | 'pray' }) {
+  const { t, lang } = useApp()
+  const videos = guide.videos[topic].filter((v) => v.lang === lang)
+  if (videos.length === 0) return null
+  return (
+    <Card title={t(ui.watchTitle)}>
+      <ul className="space-y-2">
+        {videos.map((v) => (
+          <li key={v.id}>
+            <a
+              href={`https://www.youtube.com/watch?v=${v.id}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-start gap-3 rounded-xl border border-border p-3 hover:border-primary"
+            >
+              <span className="text-2xl" aria-hidden="true">▶️</span>
+              <span>
+                <span className="block font-semibold text-primary">{v.title}</span>
+                <span className="block text-sm text-muted-foreground">
+                  {v.channel} · {duration(v.seconds)} {t(ui.minutes)}
+                  {v.note ? ` · ${t(v.note)}` : ''}
+                </span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <p className="mt-3 text-xs text-muted-foreground">{t(ui.watchNote)}</p>
+    </Card>
   )
 }

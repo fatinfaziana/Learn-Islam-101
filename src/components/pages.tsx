@@ -8,7 +8,7 @@ import {
 import type { PrayerStep, Reading, Topic, L } from '../types'
 import ReadingCard from './ReadingCard'
 import PostureIcon from './PostureIcon'
-import { Card, Num, Section, Select } from './Layout'
+import { Card, Num, Section, Select, VideoLinks } from './Layout'
 
 export function StartPage() {
   const { t, go } = useApp()
@@ -82,6 +82,7 @@ export function WuduPage() {
   const x = guide.wuduExtras
   return (
     <Section title={t(homeCard('wudhu').title)}>
+      <VideoLinks topic="wudhu" />
       <ol className="space-y-3">
         {wudu.map((s, i) => (
           <li key={i} className="rounded-xl bg-card p-4">
@@ -144,6 +145,7 @@ export function PrayPage() {
         <p className="text-sm font-semibold text-accent-foreground">{t(ui.madhhabTitle)}</p>
         <p className="mt-1 text-sm text-muted-foreground">{t(ui.madhhabNote)}</p>
       </Card>
+      <VideoLinks topic="pray" />
       <div className="flex flex-wrap gap-2" role="group" aria-label={t(homeCard('pray').title)}>
         {prayers.map((x) => (
           <button

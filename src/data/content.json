@@ -115,6 +115,18 @@
   "installHint": {
    "en": "Works offline once opened. You can add it to your home screen.",
    "ms": "Boleh digunakan tanpa internet selepas dibuka. Anda boleh tambah ke skrin utama."
+  },
+  "watchTitle": {
+   "en": "Prefer to watch? Short videos",
+   "ms": "Lebih suka menonton? Video ringkas"
+  },
+  "watchNote": {
+   "en": "Opens YouTube in a new tab. These videos are made by other people, so please check them with your teacher.",
+   "ms": "Dibuka di YouTube dalam tab baharu. Video ini dibuat oleh pihak lain, jadi sila semak dengan guru anda."
+  },
+  "minutes": {
+   "en": "min",
+   "ms": "min"
   }
  },
  "home": [
@@ -2552,6 +2564,59 @@
     {
      "en": "Between the adhan and the iqamah.",
      "ms": "Antara azan dan iqamah."
+    }
+   ]
+  },
+  "videos": {
+   "wudhu": [
+    {
+     "id": "eo3n_i-rHss",
+     "lang": "en",
+     "title": "How to do Wudu: Step-by-Step Guide",
+     "channel": "Adam - Islamic Animation",
+     "seconds": 258,
+     "note": {
+      "en": "Animated",
+      "ms": "Animasi"
+     }
+    },
+    {
+     "id": "quVqtpkYwNI",
+     "lang": "en",
+     "title": "How to do wudu women (ablution) - Step by Step",
+     "channel": "Adam - Islamic Animation",
+     "seconds": 258,
+     "note": {
+      "en": "For women",
+      "ms": "Untuk wanita"
+     }
+    },
+    {
+     "id": "-SVFMjEedss",
+     "lang": "ms",
+     "title": "Cara Mengambil Air Wuduk Yang Sempurna",
+     "channel": "BEANA QURAN",
+     "seconds": 209
+    }
+   ],
+   "pray": [
+    {
+     "id": "f11zj-yX9Do",
+     "lang": "en",
+     "title": "Salah in English – Step-by-Step Prayer Guide (For Beginners)",
+     "channel": "Deen with Yaqub",
+     "seconds": 261
+    },
+    {
+     "id": "LtCMFjlU4JQ",
+     "lang": "ms",
+     "title": "Belajar Solat Subuh Yang Sempurna",
+     "channel": "Noor Hafiz Official",
+     "seconds": 610,
+     "note": {
+      "en": "Fajr, 2 rak'ah",
+      "ms": "Subuh, 2 rakaat"
+     }
     }
    ]
   }

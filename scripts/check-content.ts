@@ -26,6 +26,7 @@ for (const p of prayers) {
   for (const r of rak) if (r.steps.some((s) => s.reading?.id === 'r-takbir' && r.rakaat > 1)) fail(`${p.id}: Takbiratul Ihram used after rak'ah 1`)
 }
 if (JSON.stringify({ home, guide }).match(/@|mailto|whatsapp|phone/i)) fail('contact information found in content')
+for (const [topic, list] of Object.entries(guide.videos)) for (const v of list) if (!/^[\w-]{11}$/.test(v.id) || v.seconds <= 0 || v.seconds > 1200) fail(`${topic}: bad video ${v.id}`)
 if (errors.length) {
   console.error(errors.join('\n'))
   process.exit(1)
