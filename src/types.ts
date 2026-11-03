@@ -84,6 +84,8 @@ export interface Guide {
 export interface Video {
   id: string
   lang: Lang
+  /** Only show for this prayer (a Prayer id). Leave out to show for every prayer. */
+  prayer?: string
   title: string
   channel: string
   seconds: number

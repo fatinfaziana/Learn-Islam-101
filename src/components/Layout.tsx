@@ -84,9 +84,9 @@ export function BackButton() {
 const duration = (sec: number) => `${Math.floor(sec / 60)}:${String(sec % 60).padStart(2, '0')}`
 
 /** Links (not embeds) to short videos, so nothing is loaded from YouTube until the person chooses to open one. */
-export function VideoLinks({ topic }: { topic: 'wudhu' | 'pray' }) {
+export function VideoLinks({ topic, prayer }: { topic: 'wudhu' | 'pray'; prayer?: string }) {
   const { t, lang } = useApp()
-  const videos = guide.videos[topic].filter((v) => v.lang === lang)
+  const videos = guide.videos[topic].filter((v) => v.lang === lang && (!v.prayer || v.prayer === prayer))
   if (videos.length === 0) return null
   return (
     <Card title={t(ui.watchTitle)}>

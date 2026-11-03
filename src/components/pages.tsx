@@ -145,7 +145,6 @@ export function PrayPage() {
         <p className="text-sm font-semibold text-accent-foreground">{t(ui.madhhabTitle)}</p>
         <p className="mt-1 text-sm text-muted-foreground">{t(ui.madhhabNote)}</p>
       </Card>
-      <VideoLinks topic="pray" />
       <div className="flex flex-wrap gap-2" role="group" aria-label={t(homeCard('pray').title)}>
         {prayers.map((x) => (
           <button
@@ -165,6 +164,7 @@ export function PrayPage() {
         <p className="text-muted-foreground">{t(p.time)}</p>
         <p className="mt-2 text-sm">{t(p.loud)}</p>
       </Card>
+      <VideoLinks topic="pray" prayer={p.id} />
       {buildPrayer(p.id, p.rakaat).map((r) => (
         <div key={r.rakaat}>
           <h3 className="mb-3 mt-4 font-display text-xl text-accent-foreground">

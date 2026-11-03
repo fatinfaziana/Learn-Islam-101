@@ -2605,18 +2605,51 @@
      "lang": "en",
      "title": "Salah in English – Step-by-Step Prayer Guide (For Beginners)",
      "channel": "Deen with Yaqub",
-     "seconds": 261
+     "seconds": 261,
+     "note": {
+      "en": "Basic steps, any prayer",
+      "ms": "Langkah asas, mana-mana solat"
+     }
     },
     {
      "id": "LtCMFjlU4JQ",
      "lang": "ms",
-     "title": "Belajar Solat Subuh Yang Sempurna",
+     "prayer": "subuh",
+     "title": "BELAJAR SOLAT SUBUH YANG SEMPURNA",
      "channel": "Noor Hafiz Official",
-     "seconds": 610,
-     "note": {
-      "en": "Fajr, 2 rak'ah",
-      "ms": "Subuh, 2 rakaat"
-     }
+     "seconds": 610
+    },
+    {
+     "id": "fwp-UjLMCgg",
+     "lang": "ms",
+     "prayer": "zohor",
+     "title": "BELAJAR SOLAT ZOHOR YANG SEMPURNA",
+     "channel": "Noor Hafiz Official",
+     "seconds": 886
+    },
+    {
+     "id": "T0l4r02hF1E",
+     "lang": "ms",
+     "prayer": "asar",
+     "title": "BELAJAR SOLAT ASAR YANG SEMPURNA",
+     "channel": "Noor Hafiz Official",
+     "seconds": 883
+    },
+    {
+     "id": "B6n1Gg8Jo3Q",
+     "lang": "ms",
+     "prayer": "maghrib",
+     "title": "BELAJAR SOLAT MAGHRIB YANG SEMPURNA",
+     "channel": "Noor Hafiz Official",
+     "seconds": 737
+    },
+    {
+     "id": "M67NpDdV3co",
+     "lang": "ms",
+     "prayer": "isyak",
+     "title": "BELAJAR SOLAT ISYAK YANG SEMPURNA",
+     "channel": "Noor Hafiz Official",
+     "seconds": 885
     }
    ]
   }
