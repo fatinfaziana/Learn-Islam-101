@@ -1,0 +1,43 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-background: oklch(24% 0.05 160);
+  --color-foreground: oklch(95% 0.02 90);
+  --color-card: oklch(29% 0.055 160);
+  --color-primary: oklch(78% 0.12 85);
+  --color-primary-foreground: oklch(22% 0.05 160);
+  --color-muted-foreground: oklch(78% 0.04 100);
+  --color-accent: oklch(36% 0.07 160);
+  --color-accent-foreground: oklch(85% 0.12 85);
+  --color-border: oklch(78% 0.12 85 / 0.3);
+  --color-input: oklch(78% 0.12 85 / 0.4);
+  --font-display: 'Marcellus', serif;
+  --font-arabic: 'Amiri', serif;
+  --font-sans: 'Nunito Sans', system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke='%23d4af37' stroke-opacity='0.09' stroke-width='1'%3E%3Cpath d='M40 4 L50 30 L76 40 L50 50 L40 76 L30 50 L4 40 L30 30 Z'/%3E%3Crect x='22' y='22' width='36' height='36' transform='rotate(45 40 40)'/%3E%3Crect x='22' y='22' width='36' height='36'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+button:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+@keyframes write-in {
+  0% { clip-path: inset(0 0 0 100%); opacity: 0.3; }
+  to { clip-path: inset(0); opacity: 1; }
+}
+
+.animate-write {
+  animation: write-in 3.5s ease-in-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-write { animation: none; }
+}
